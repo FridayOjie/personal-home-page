@@ -1,0 +1,126 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: min(100% - 4rem);
+  margin-inline: auto;
+  background: lightblue;
+  line-height: 1.5;
+  
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
+.c-site-header {
+  background: grey;
+  justify-content: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #BFACE2;
+  padding: 1%; 
+  
+  
+}
+ul.navigation li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold; 
+}
+.parent {
+  display: flex;
+  margin-bottom: 0px;
+}
+#myfoto {
+  border-radius: 10%;
+  padding: 5px 10px 0 5px;
+  margin-right: 0px;
+  height: 90%; 
+}
+
+.myname {
+  margin-top: 3px;
+  color: #674188;
+  margin-left: 20px;
+  margin-top:0
+}
+
+.myhobby {
+  background-color: #dddddd;
+  padding: 2%;
+  width: min(90% - 5rem);
+  border-radius: 10%; 
+  
+ 
+}
+
+.myvideo {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000; 
+  frameborder: 0;
+  
+  
+  
+}
+.motivation {
+  margin-top: 50px;
+}
+
+
+.contact {
+  margin-top: 30px;
+}
+
+.btn1 {
+  padding: 5px;
+  width: 250px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.btn2 {
+  padding: 5px;
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
